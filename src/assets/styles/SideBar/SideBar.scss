@@ -1,0 +1,46 @@
+.sidebar-overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidebar {
+  background-color: white;
+  width: 22%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 2rem;
+  &-close {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+    cursor: pointer;
+  }
+  &-heading {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: black;
+  }
+  &-hr {
+    margin: 2rem 0;
+  }
+  &-input {
+    margin-bottom: 2rem;
+  }
+  &-text {
+    font-size: 1.3rem;
+    text-align: center;
+    color: black;
+    margin: 2rem 0;
+    letter-spacing: 1px;
+  }
+}

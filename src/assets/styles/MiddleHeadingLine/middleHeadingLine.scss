@@ -1,0 +1,18 @@
+.middleheadingline {
+  //   background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .mhl-line {
+    width: 30%;
+    height: 2px;
+    background-color: red;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    padding: 0 2rem;
+    letter-spacing: 1px;
+  }
+}

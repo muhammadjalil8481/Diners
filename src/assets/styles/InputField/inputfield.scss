@@ -1,0 +1,18 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 1.5rem;
+    // font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+  }
+  input {
+    padding: 0.7rem 1rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 1rem;
+  }
+}

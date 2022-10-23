@@ -1,0 +1,72 @@
+.home-category {
+  // background-color: salmon;
+  .home-category-row {
+    // background-color: violet;
+    padding: 0 50px;
+    .home-category-col {
+      // border: 2px solid firebrick;
+      padding: 20px;
+      position: relative;
+      // background-color: sandybrown;
+      overflow: hidden;
+      &:hover .home-category-name::after {
+        width: 100%;
+        left: 0;
+        // opacity: 0;
+      }
+      &:hover .home-category-overlay {
+        opacity: 1;
+      }
+      &:hover img {
+        transform: scale(1.15);
+      }
+      .home-category-col-button {
+        position: absolute;
+        bottom: 15%;
+        left: 35%;
+        // opacity: 0;
+        // transition: bottom 2s linear;
+      }
+      .home-category-name {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 3rem;
+        letter-spacing: 2px;
+        color: white;
+        &:after {
+          background: none repeat scroll 0 0 transparent;
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          background: #fff;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
+      }
+      .home-category-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        opacity: 0;
+      }
+      .home-category-image {
+        position: relative;
+      }
+      img {
+        // width: 80%;
+        width: 100%;
+        transition: transform 0.3s ease-in;
+      }
+    }
+  }
+}

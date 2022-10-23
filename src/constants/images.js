@@ -1,0 +1,26 @@
+const images = {
+  sliderImage1: require("../assets/images/slider_image_1.png"),
+  sliderImage2: require("../assets/images/slider_image_2.png"),
+  sliderImage3: require("../assets/images/slider_image_3.png"),
+  sliderImage4: require("../assets/images/slider_image_4.png"),
+  sliderImage5: require("../assets/images/slider_image_5.png"),
+  sliderImage6: require("../assets/images/slider_image_6.png"),
+  catImage1: require("../assets/images/cat_image_1.png"),
+  catImage2: require("../assets/images/cat_image_2.png"),
+  catImage3: require("../assets/images/cat_image_3.png"),
+  catImage4: require("../assets/images/cat_image_4.png"),
+  pcImg1: require("../assets/images/pcimg1.png"),
+  pcImg1alt: require("../assets/images/pcimg1.1.png"),
+  brand1: require("../assets/images/brand1.jpg"),
+  brand2: require("../assets/images/brand2.jpg"),
+  brand3: require("../assets/images/brand3.jpg"),
+  brand4: require("../assets/images/brand4.jpg"),
+  brand5: require("../assets/images/brand5.jpg"),
+  payment1: require("../assets/images/payment1.png"),
+  payment2: require("../assets/images/payment2.png"),
+  payment3: require("../assets/images/payment3.png"),
+  payment4: require("../assets/images/payment4.png"),
+  payment5: require("../assets/images/payment5.png"),
+};
+
+export default images;
